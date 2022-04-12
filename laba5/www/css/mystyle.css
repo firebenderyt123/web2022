@@ -1,0 +1,47 @@
+/* part 6 */
+body div > h3 {
+	background-color: #444;
+	border-radius: 90px;
+	padding: 2px 20px;
+}
+
+.container {
+	margin: 0 20% 0 20%;
+	padding: 10px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	align-content: center;
+}
+
+/* part 7 */
+.container div p:nth-child(1) {
+	text-indent: 15mm;
+	text-align: justify;
+	color: yellow;
+
+	background-color: #000;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+.container div p:nth-child(2) {
+	text-decoration: underline;
+	text-indent: 14pt;
+	color: blue;
+	animation: blink 2s infinite;
+}
+
+.container div p:nth-child(3) {
+	text-align: center;
+	letter-spacing: 10mm;
+}
+
+@keyframes blink {
+	0% {opacity: 1;}
+	30% {opacity: 0;}
+	100% {opacity: 1;}
+}

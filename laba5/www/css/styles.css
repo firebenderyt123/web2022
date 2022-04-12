@@ -1,0 +1,23 @@
+@import url(mystyle.css);
+
+body {
+	background-image: url(../image/background.jpg); /* part 1 */
+	background-attachment: fixed;
+}
+
+h1 {
+	color: green;  /* part 4 */
+	font-size: 20pt;
+}
+
+h3 {
+	color: Lime; /* part 2 */
+}
+
+.text {
+	font-style: italic; /* part 3 */
+}
+
+.text2 {
+	color: Maroon; /* part 5 */
+}
