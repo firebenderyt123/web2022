@@ -1,0 +1,102 @@
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #d9b600;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #333;
+}
+
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #d9b600;
+}
+
+dd a {
+	color: red;
+	text-decoration: none;
+}
+
+dd a:hover {
+	text-decoration: underline dashed;
+	cursor: wait;
+}
+
+dd a:visited {
+	color: grey;
+}
+
+h1, h3 {
+	text-align: center;
+} 
+
+header {
+	position: fixed;
+	width: 60%;
+	text-align: center;
+	padding: 0px 20%;
+	display: inline-flex;
+    justify-content: center;
+	top: 0;
+	left: 0;
+}
+
+header .btn {
+	padding: 10px 0;
+	width: 20%;
+	background-color: #000;
+	color: gold;
+	text-decoration: none;
+	transition: all ease .1s;
+}
+
+header .btn:hover {
+	background-color: gold;
+	color: #000;
+	transition: all ease .1s;
+}
+
+header .btn:first-of-type {
+	border-radius: 0 0 0 15px;
+}
+
+header .btn:last-of-type {
+	border-radius: 0 0 15px 0;
+}
+
+section {
+	padding-top: 20px;
+}
+
+.container {
+	margin: 0 20%;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: gold;
+	box-shadow: 5px 5px 20px 0px gold;
+}
+
+.list {
+	margin-left: 20px;
+}
+
+.list p {
+	display: list-item;
+	list-style-type: disc;
+	color: green;
+	padding-bottom: 10px;
+}
