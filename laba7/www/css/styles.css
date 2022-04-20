@@ -1,0 +1,148 @@
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #eef4f6;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #7777e9;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #6060bf;
+}
+
+* {
+	font-family: 'Lobster';
+}
+
+body {
+	margin: 0 0 20px 0;
+	background-color: #eef4f6;
+}
+
+header {
+	position: fixed;
+	background-color: #7777e9;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+    width: 100%;
+	z-index: 1000000000000000;
+}
+
+header .btn {
+	display: inline-block;
+}
+
+
+.btn {
+	border: 2px solid #fff;
+	color: #fff;
+	font: 16pt 'Lobster';
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #fff;
+	border-color: #7777e9;
+	color: #7777e9;
+}
+
+.clip-item.phone {
+	clip-path: inset(0 20% 0 20%);
+	background-color: #7777e9;
+	border-radius: 10px;
+	height: 25px;
+	width: 25px;
+}
+
+.clip-item.phone-button {
+	position: absolute;
+	margin: 16px 0 0 10.5px;
+	clip-path: circle(50.0% at 50% 50%);
+	background-color: #fff;
+	height: 4px;
+	width: 4px;
+}
+
+.clip-item.pencil {
+	clip-path: polygon(40% 100%, 60% 100%, 60% 15%, 50% 0, 40% 15%, 40% 80%, 60% 80%, 60% 90%, 40% 90%);
+	background-color: #7777e9;
+	height: 25px;
+	width: 25px;
+	transform: rotateZ(-135deg);
+}
+
+.clip-item.monitor {
+	clip-path: polygon(45% 90%, 45% 10%, 55% 10%, 55% 70%, 75% 88%, 75% 0, 55% 21%, 55% 90%, 75% 100%, 25% 100%);
+	background-color: #7777e9;
+	height: 25px;
+	width: 25px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+.gallery .block {
+	border: 5px solid #fff;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 10px 20px;
+	width: 400px;
+}
+
+.gallery .clip-item {
+	display: inline-block;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	margin: 10px;
+	clip-path: polygon(50% 0%, 60% 60%, 100% 35%, 80% 65%, 30% 85%, 50% 100%, 70% 85%, 20% 65%, 0 35%, 40% 60%);
+}
+
+.logo, .nav {
+	display: inline-block;
+}
+
+.title {
+	display: inline-block;
+}
+
+.title h1 {
+	font-family: system-ui;
+}
+
+.top-section {
+	padding: 120px 20%;
+	background-color: #7777e9;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	margin-bottom: 50px;
+}
+
+.top-section h1,
+.top-section p {
+	text-align: center;
+}
+
+.top-section h1 {
+	font: 32pt system-ui;
+}
+
+.top-section p {
+	font: 28pt 'Lobster';
+}
